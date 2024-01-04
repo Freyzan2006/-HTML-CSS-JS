@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.flats{
+    display: flex;
+    flex-direction: column;
+    padding: 0 100px;
+    gap: 50px;
+}
+
+.sec_title{
+    color: #2B7AF1;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.sec_rows{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.flat_box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    flex-grow: 1;
+    flex-basis: 100px;
+}
+
+.box_img{
+    margin:0 -20px;
+}
+
+.box_title{
+    color: #333;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.box_text{
+    color: #333;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 400px;
+}
+
+.box_price{
+    color: #2B7AF1;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.box_locait{
+    color: #333;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.box_but{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+    display: flex;
+    width: 170px;
+    height: 40px;
+    padding: 8px 20px;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 25px;
+    background: linear-gradient(90deg, #FF7A00 0.2%, #FFB039 99.82%);
+    
+    /* Shadow btn */
+    box-shadow: 0px 10px 20px 0px rgba(255, 122, 0, 0.20);
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    padding: 0 100px;
+    gap: 50px;
+}
+
+
+.sec_content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.sec_text{
+    width: 350px;
+    color: var(--, #111);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.sec_ad{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    color: #111;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 144.444% */
+}
+
+.contacs{
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    gap: 50px;
+}
+
+.cont_left{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    width: 40%;
+}
+
+.cont_infos{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.cont_inf{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: var(--, #111);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cont_email{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: var(--, #111);
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    justify-content: space-between;
+}
+
+.cont_inf_left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cont_icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #2B7AF1;
+    border-radius: 50%;
+}
+
+.cont_but{
+    display: flex;
+    width: 157px;
+    padding: 8px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 25px;
+    background: var(--unnamed, linear-gradient(90deg, #FF7A00 0.2%, #FFB039 99.82%));
+    
+    /* Shadow btn */
+    box-shadow: 0px 10px 20px 0px rgba(255, 122, 0, 0.20);
+    
+    color: white;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+}

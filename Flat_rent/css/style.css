@@ -1,0 +1,235 @@
+.header {
+    width: 100%;
+    background: #ffffff linear-gradient(90deg,#ffffff 50%, #007eff 20%);
+}
+
+#Title__header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.Title__header_left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Title__header_left>h1,
+.Title__header_left>p {
+    display: flex;
+    flex-direction: column;
+}
+
+.Title__header_left>h1 {
+    font-size: 30px;
+
+}
+
+.Title__header_right>img {
+    max-width: 700px;
+}
+
+.Title__menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+    top: 30px;
+}
+
+.Title__menu_item {
+    max-width: 250px;
+    width: 100%;
+    min-height: 200px;
+    background-color: #FFF;
+    border-radius: 15px;
+
+    box-shadow: 14px 13px 53px -1px rgba(0,0,0,0.38);
+    -webkit-box-shadow: 14px 13px 53px -1px rgba(0,0,0,0.38);
+    -moz-box-shadow: 14px 13px 53px -1px rgba(0,0,0,0.38);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.Title__menu_item>i {
+    font-size: 50px;
+    color: var(--Color1);
+}
+
+.Title__menu_item>p {
+    text-align: center;
+}
+
+
+main>.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+
+.Our_apartment {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+}
+
+.Our_apartment>h2 {
+    color: var(--Color1);
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.Our_apartment>a {
+    align-self: center;
+}
+
+.Our_apartment_content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+    'box box box2'
+    'box3 box4 box4';
+    gap: 15px;
+}
+
+#box {
+    grid-area: box;
+}
+#box2 {
+    grid-area: box2;
+}
+#box3 {
+    grid-area: box3;
+}
+#box4 {
+    grid-area: box4;
+}
+
+.Our_apartment_content_item {
+    box-shadow: 10px 10px 46px 191px rgba(0,0,0,0.36) inset;
+    -webkit-box-shadow: 10px 10px 46px 191px rgba(0,0,0,0.36) inset;
+    -moz-box-shadow: 10px 10px 46px 191px rgba(0,0,0,0.36) inset;
+    height: 200px;
+    border-radius: 30px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    transition: 0.5s all ease;
+    color: white;
+    padding: 0 15px;
+}
+
+.Our_apartment_content_item:hover {
+    transform: scale(105%);
+}
+
+.Our_apartment_content_item>div {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Our_apartment_content_item>div i {
+    font-size: 25px;
+    color: var(--Color1);
+}
+
+.About {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+}
+
+.About_left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 15px;
+}
+
+.About_left>h2 {
+    color: var(--Color1);
+    font-size: 25px;
+}
+
+.About_left>p {
+    display: flex;
+    flex-direction: column;
+    line-height: 22px;
+}
+
+.About_right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.About_right_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.About_right_item>i {
+    font-size: 30px;
+    color: var(--Color1);
+}
+
+.Contact {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.Contact_left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+}
+
+.Contact_left>h2 {
+    font-weight: 600;
+    color: var(--Color1);
+}
+
+.Contact_left>ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    line-height: 35px;
+}
