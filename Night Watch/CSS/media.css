@@ -1,0 +1,123 @@
+@media (max-width: 1400px) {
+    main #Genres #Genres_info {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    main #Genres #Genres_info2 {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+
+@media (max-width: 1300px) {
+    /* header .Line_head {
+        width: 10px;
+    } */
+
+
+
+    header nav {
+        flex-flow: column wrap;
+        justify-content: center;
+    }
+
+    
+
+
+
+
+}
+
+@media (max-width: 1300px) {
+    #Coming_Soon {
+        gap: 30px;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+
+   
+
+    .footer {
+        flex-flow: column nowrap;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+
+   
+}
+
+
+@media (max-width: 1240px) {
+    main #TV_Shows #TV_Shows_info {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    main #Movies #Movies_info {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    main #Actors #Actors_info {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+
+    main #Register_now {
+        flex-flow: column nowrap;
+        
+    }
+
+    main #Register_now .Register_now_text{
+        font-size: 20px;
+        
+        
+    }
+
+    main #Coming_Soon .Coming_Soon_img {
+        width: 150px;
+        height: 100px;
+    }
+
+    main #Coming_Soon .Coming_Soon_text {
+        font-size: 20px;
+    }
+    
+
+    
+    
+
+
+
+}
+
+
+
+
+/* @media (max-width: 650px) {
+    header #Title_Head {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+    }
+
+    header #Title_Head h1 {
+        font-family: 'Marcellus';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 50px;
+        line-height: 70px;
+    }
+} */

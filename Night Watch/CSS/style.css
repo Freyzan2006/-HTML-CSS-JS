@@ -1,0 +1,859 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.conteiner {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    background-color: red;
+}
+
+body {
+    background-color: black;
+    cursor: default;
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+}
+
+header {
+    background-image: url(./img/head/BG.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+nav {
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.363);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+
+nav .logo {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: auto;
+    height: auto;
+    padding-top: 20px;
+}
+
+nav .logo a {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: auto;
+    gap: 30px;
+    transition: 0.5s;
+}
+
+nav .logo a:hover {
+    transform: translateY(5px);
+}
+
+nav .logo a img {
+    border: solid 3px aliceblue;
+    border-top-color: #26FFF2;
+    border-left-color: #26FFF2;
+    border-bottom-color: #326CFF;
+    border-right-color: #326CFF;
+    border-radius: 10px;
+    padding: 10px;
+    background: none;
+    box-shadow: 0px 4px 50px rgba(50, 108, 255, 0.5);
+}
+
+nav .logo a h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 0px;
+    text-align: center;
+    color: aliceblue;
+}
+
+nav menu {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+
+}
+
+nav menu li a {
+    opacity: 0.5;
+    color: aliceblue;
+    transition: 0.5s;
+
+}
+
+nav menu li a:hover {
+    opacity: 1;
+    border-bottom: solid 1px #326CFF;
+}
+
+
+
+
+header #Title_Head {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 100%;
+    height: auto;
+
+    color: aliceblue;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+    width: 600px;
+    height: auto;
+
+
+}
+
+header #Title_Head h1 {
+    font-family: 'Marcellus';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 70px;
+    width: auto;
+    height: auto;
+
+}
+
+header #Title_Head ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+header #Title_Head ul li {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 10px;
+}
+
+header #Title_Head ul li i {
+    color: gold;
+}
+
+header #Title_Head ul #li {
+    border-radius: 10px;
+    border: solid 3px aliceblue;
+    border-top-color: #26FFF2;
+    border-left-color: #26FFF2;
+    border-bottom-color: #326CFF;
+    border-right-color: #326CFF;
+    padding: 5px;
+    box-shadow: 0px 4px 50px rgba(50, 108, 255, 0.5);
+}
+
+
+header #Title_Head p {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    opacity: 0.5;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+
+}
+
+header #Title_Head #Title_Head_Button {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+header #Title_Head #Title_Head_Button a {
+    border-radius: 100px;
+    padding: 10px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    transition: 0.5s;
+}
+
+header #Title_Head #Title_Head_Button #Title_Btn_1 {
+    background: linear-gradient(316.53deg, #26FFF2 13.2%, #326CFF 71.54%);
+    box-shadow: 0px 4px 50px rgba(50, 108, 255, 0.5);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: aliceblue;
+}
+
+header #Title_Head #Title_Head_Button #Title_Btn_2 {
+    background-color: aliceblue;
+    color: #323232;
+}
+
+header #Title_Head #Title_Head_Button a:hover {
+    transform: translateY(5px);
+}
+
+
+
+
+/* header .Line_head {
+    width: 1200px;
+    height: 2px;
+    background: #2F2E2E;
+    margin-bottom: 100px;
+} */
+
+
+
+
+main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+    align-items: center;
+
+}
+
+.Icon_style {
+    transition: 0.5s;
+}
+
+.Icon_style:hover {
+    box-shadow: 8px 6px 297px -6px rgba(4, 219, 235, 0.82);
+    -webkit-box-shadow: 8px 6px 297px -6px rgba(4, 219, 235, 0.82);
+    -moz-box-shadow: 8px 6px 297px -6px rgba(4, 219, 235, 0.82);
+}
+
+main #TV_Shows {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    gap: 30px;
+}
+
+main #TV_Shows h1 {
+
+
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 20px;
+    color: aliceblue;
+}
+
+main #TV_Shows h1 div {
+    width: 10px;
+    height: 40px;
+    background: linear-gradient(316.53deg, #26FFF2 13.2%, #326CFF 71.54%);
+    border-radius: 50px;
+}
+
+main #TV_Shows h1 i {
+    transition: 0.5s;
+}
+
+main #TV_Shows h1 i:hover {
+    transform: rotate(360deg);
+    cursor: pointer;
+    color: #26FFF2;
+}
+
+
+
+main #TV_Shows #TV_Shows_info {
+    /* width: 100%; */
+    /* height: auto; */
+    /* display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-areas: 
+    'box1 box2 box3 box4 box5 box6';
+    gap: 20px; */
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+
+}
+
+main #TV_Shows #TV_Shows_info img {
+    width: 160px;
+    height: auto;
+    border-radius: 20px;
+}
+
+main #TV_Shows #TV_Shows_info #TV_Shows_info_btn {
+    font-size: 70px;
+    border: 0;
+    background: none;
+    transition: 0.5s;
+    color: aliceblue;
+}
+
+main #TV_Shows #TV_Shows_info #TV_Shows_info_btn:hover {
+    transform: rotate(360deg);
+    color: #26FFF2;
+}
+
+
+
+
+
+
+main #Movies {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    gap: 30px;
+}
+
+main #Movies h1 {
+
+
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 20px;
+    color: aliceblue;
+}
+
+main #Movies h1 div {
+    width: 10px;
+    height: 40px;
+    background: linear-gradient(316.53deg, #26FFF2 13.2%, #326CFF 71.54%);
+    border-radius: 50px;
+}
+
+main #Movies h1 i {
+    transition: 0.5s;
+}
+
+main #Movies h1 i:hover {
+    transform: rotate(360deg);
+    cursor: pointer;
+    color: #26FFF2;
+}
+
+
+
+main #Movies #Movies_info {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+
+}
+
+main #Movies #Movies_info img {
+    width: 160px;
+    height: auto;
+    border-radius: 20px;
+}
+
+main #Movies #Movies_info #Movies_info_btn {
+    font-size: 70px;
+    border: 0;
+    background: none;
+    transition: 0.5s;
+    color: aliceblue;
+}
+
+main #Movies #Movies_info #Movies_info_btn:hover {
+    transform: rotate(360deg);
+    color: #26FFF2;
+}
+
+
+
+main #Movies #Movies_btn {
+    background: linear-gradient(316.53deg, #26FFF2 13.2%, #326CFF 71.54%);
+    box-shadow: 0px 4px 50px rgba(50, 108, 255, 0.5);
+    border-radius: 100px;
+    width: 150px;
+    height: 50px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    border: 0;
+    transition: 0.5s;
+    color: aliceblue;
+    margin-top: 100px;
+
+}
+
+main #Movies #Movies_btn:hover {
+    transform: translateY(5px);
+    background: linear-gradient(316.53deg, #326CFF 13.2%, #26FFF2 71.54%);
+}
+
+
+
+
+
+
+
+
+
+
+main #Genres {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+main #Genres h1 {
+
+
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 20px;
+    color: aliceblue;
+}
+
+main #Genres h1 div {
+    width: 10px;
+    height: 40px;
+    background: linear-gradient(316.53deg, #26FFF2 13.2%, #326CFF 71.54%);
+    border-radius: 50px;
+}
+
+main #Genres h1 i {
+    transition: 0.5s;
+}
+
+main #Genres h1 i:hover {
+    transform: rotate(360deg);
+    cursor: pointer;
+    color: #26FFF2;
+}
+
+
+#Genres_info,
+#Genres_info2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.Genres_info_div,
+.Genres_info_div2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 20px;
+    width: 300px;
+    height: 150px;
+}
+
+main #Genres .Genres_info_div_id {
+    background: linear-gradient(109.31deg, #FD093F 2.4%, #F383F1 100%);
+}
+
+main #Genres .Genres_info_div_id2 {
+    background: linear-gradient(114.5deg, #0FFFDA 2.22%, #3CDB77 68.84%);
+}
+
+main #Genres .Genres_info_div_id3 {
+    background: linear-gradient(109.31deg, #B936FF 2.4%, #57DEDA 100%);
+}
+
+main #Genres .Genres_info_div_id4 {
+    background: linear-gradient(109.31deg, #FD093F 2.4%, #FB1378 2.41%, #FCCB1A 100%);
+}
+
+main #Genres .Genres_info_div_id5 {
+    background: linear-gradient(109.31deg, #FF6472 2.4%, #FDA75D 100%);
+}
+
+main #Genres .Genres_info_div_id6 {
+    background: linear-gradient(110.16deg, #13547A 2.37%, #80D0C7 96.77%);
+}
+
+main #Genres .Genres_info_div_id7 {
+    background: linear-gradient(109.93deg, #FFF77B 2.37%, #FFBF42 50%);
+    background-color: red;
+}
+
+main #Genres .Genres_info_div_id8 {
+    background: linear-gradient(109.31deg, #1FA2FF 2.4%, #1FA2FF 2.41%, #1F535C 97.46%);
+}
+
+
+
+
+
+
+
+
+
+main #Actors {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    gap: 30px;
+}
+
+main #Actors h1 {
+
+
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 20px;
+    color: aliceblue;
+}
+
+main #Actors h1 div {
+    width: 10px;
+    height: 40px;
+    background: linear-gradient(316.53deg, #26FFF2 13.2%, #326CFF 71.54%);
+    border-radius: 50px;
+}
+
+main #Actors h1 i {
+    transition: 0.5s;
+}
+
+main #Actors h1 i:hover {
+    transform: rotate(360deg);
+    cursor: pointer;
+    color: #26FFF2;
+}
+
+
+
+main #Actors #Actors_info {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+
+}
+
+main #Actors #Actors_info div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    color: aliceblue;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+}
+
+main #Actors #Actors_info img {
+    width: 160px;
+    height: auto;
+    border-radius: 50%;
+}
+
+main #Actors #Actors_info #Actors_info_btn {
+    font-size: 70px;
+    border: 0;
+    background: none;
+    transition: 0.5s;
+    color: aliceblue;
+}
+
+main #Actors #Actors_info #Actors_info_btn:hover {
+    transform: rotate(360deg);
+    color: #26FFF2;
+}
+
+
+
+
+
+
+main #Coming_Soon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+
+    /* background: linear-gradient(87.02deg, #0D1A73 29.67%, #000000 70.52%);
+    box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.1); */
+    border-radius: 20px;
+}
+
+main #Coming_Soon img {
+    border-radius: 20px;
+    width: 500px;
+    height: 300px;
+}
+
+main #Coming_Soon div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+main #Coming_Soon div img {
+    border-radius: 0;
+    width: auto;
+    height: auto;
+}
+
+main #Coming_Soon div h1 {
+    color: aliceblue;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 20px;
+    text-transform: capitalize;
+    width: auto;
+    height: auto;
+}
+
+
+
+
+
+
+main #Register_now {
+    background-image: url(./img/main/Rigister_right_now/BG.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    width: 70%;
+    height: 400px;
+    display: flex;
+    /* flex-flow: row wrap; */
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    border-radius: 50px;
+}
+
+main #Register_now h1 {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100%;
+    color: aliceblue;
+    text-transform: capitalize;
+}
+
+main #Register_now a {
+    background: linear-gradient(316.53deg, #26FFF2 13.2%, #326CFF 71.54%);
+    box-shadow: 0px 4px 50px rgba(50, 108, 255, 0.5);
+    border-radius: 100px;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: aliceblue;
+
+    transition: 0.5s;
+}
+
+main #Register_now a:hover {
+    background: linear-gradient(316.53deg, #326CFF 13.2%, #26FFF2 71.54%);
+    transform: translateY(5px);
+    cursor: pointer;
+}
+
+
+
+
+
+footer {
+    width: 100%;
+    height: 700px;
+    background: #101012;
+
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+footer .logo {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: auto;
+    height: auto;
+    padding-top: 20px;
+    
+}
+
+footer .logo a {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: auto;
+    gap: 30px;
+    transition: 0.5s;
+    
+}
+
+footer .logo a:hover {
+    transform: translateX(5px);
+}
+
+footer .logo a img {
+    border: solid 3px aliceblue;
+    border-top-color: #26FFF2;
+    border-left-color: #26FFF2;
+    border-bottom-color: #326CFF;
+    border-right-color: #326CFF;
+    border-radius: 10px;
+    padding: 10px;
+    background: none;
+    box-shadow: 0px 4px 50px rgba(50, 108, 255, 0.5);
+}
+
+footer .logo a h1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 0px;
+    text-align: center;
+    color: aliceblue;
+}
+
+footer .logo ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+footer .logo ul a {
+    width: auto;
+    height: auto;
+}
+
+footer .logo ul a i {
+    font-size: 30px;
+    color: aliceblue;
+    opacity: 0.5;
+    transition: 0.5s;
+    width: auto;
+    height: auto;
+    transform: translateY(0px);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+footer .logo ul a i:hover {
+    opacity: 1;
+    cursor: pointer;
+    color: #1FA2FF;
+}
+
+
+footer ul {
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 40px;
+    
+
+    color: #C2C2C2;
+}
