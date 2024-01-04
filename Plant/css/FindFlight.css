@@ -1,0 +1,231 @@
+:root {
+    --One_color: rgb(56, 54, 54);
+    --Two_color: #8DD3BB;
+    --Fontfamaly: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+main>.container {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.MAIN {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+
+.MAIN_right {
+    max-width: 400px;
+    width: 100%;
+    min-height: 500px;
+    background-color: white;
+    border-radius: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    box-shadow: 2px 3px 104px 0px rgba(0,0,0,0.33);
+    -webkit-box-shadow: 2px 3px 104px 0px rgba(0,0,0,0.33);
+    -moz-box-shadow: 2px 3px 104px 0px rgba(0,0,0,0.33);
+
+    padding: 0 15px;
+}
+
+.MAIN_right_Title {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: var(--Fontfamaly);
+    color: var(--One_color);
+}
+
+.MAIN_right>hr {
+    width: 100%;
+}
+
+.MAIN_right_content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.MAIN_right_content>ul {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.MAIN_right_content>ul>li {
+    width: 100%;
+}
+
+.MAIN_right_content>ul>li>p {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 100%;
+    color: var(--Two_color);
+    font-weight: 600;
+}
+
+.MAIN_left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+
+.MAIN_left_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: white;
+    border-radius: 30px;
+
+    gap: 30px;
+
+    box-shadow: 2px 3px 104px 0px rgba(0,0,0,0.33);
+    -webkit-box-shadow: 2px 3px 104px 0px rgba(0,0,0,0.33);
+    -moz-box-shadow: 2px 3px 104px 0px rgba(0,0,0,0.33);
+}
+
+.MAIN_left_block>h2 {
+    font-weight: 600;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.MAIN_left_block>span {
+    color: gold;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.MAIN_left_block>div {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.MAIN_left_block>div>h3 {
+    font-weight: 600;
+    color: var(--One_color);
+    display: flex;
+    flex-direction: column;
+}
+
+.MAIN_left_block>div>h3>span {
+    font-size: 12px;
+    opacity: 0.5;
+}
+
+.MAIN_left_block>div>i {
+    font-size: 40px;
+}
+
+.MAIN_left_block2 {
+    background-color: white;
+    width: 100%;
+    min-height: 500px;
+
+    box-shadow: 2px 3px 104px 0px rgba(0,0,0,0.33);
+    -webkit-box-shadow: 2px 3px 104px 0px rgba(0,0,0,0.33);
+    -moz-box-shadow: 2px 3px 104px 0px rgba(0,0,0,0.33);
+
+    border-radius: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 10px 5px;
+}
+
+.MAIN_left_block2>h2 {
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--One_color);
+}
+
+.MAIN_left_block2>input {
+    width: 80%;
+    border-radius: 20px;
+    border: none;
+    padding-left: 15px;
+    border: solid var(--Two_color) 1px;
+    height: 50px;
+    font-family: var(--Fontfamaly);
+    font-weight: 600;
+    color: var(--Two_color);
+    outline: none;
+}
+
+.MAIN_left_block2>span {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--One_color);
+    text-align: center;
+}
+
+.MAIN_left_block2>hr {
+    width: 100%;
+}
+
+.MAIN_left_block2>div {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.MAIN_left_block2>div>a {
+    font-size: 30px;
+    border-radius: 15px;
+    border: solid var(--Two_color) 2px;
+    padding: 20px;
+    color: var(--Two_color);
+    transition: 0.5s all ease;
+}
+
+.MAIN_left_block2>div>a:hover,
+.MAIN_left_block2>a:hover {
+    transform: scale(110%) translateY(10px);
+    color: gold;
+    border-color: gold;
+}
+
+.MAIN_left_block2>a {
+    width: 80%;
+    border-radius: 30px;
+    background-color: var(--Two_color);
+    color: var(--One_color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    font-weight: 600;
+    gap: 5px;
+    transition: 0.5s all ease;
+}
