@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/Login.css">
+    <link rel="icon" href="./CSS/img/icon.ico">
+    <link rel="stylesheet" href="./fonts/all.min.css">
+    <script src = "JS/jquery-3.7.0.min.js"></script>
+    <script src = "JS/Register&Login.js"></script>
+    <title>Sign in</title>
+</head>
+<body>
+    <header id = "header">
+        <nav>
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="./CSS/img/head/logo.png" alt="">
+                </a>
+            </div>
+            <div class="img_nav">
+                <img src="./CSS/img/head/img.png" alt="">
+            </div>
+        </nav>
+    </header>
+    <main id = "main">
+        <form id = "main_Login">
+            <h1>Welcome. We exist to make  <br>
+                entrepreneurism easier.</h1>
+            <div id="main_register_info">
+                <a target="_blank" id = "a" href="https://www.google.com/intl/ru/account/about/">
+                    <i class="fab fa-google"></i> Sign up with Google
+                </a> <br>
+                <a id = "a2" href="./Login.html">
+                    Or, register with your email
+                </a>
+                <div class = "Input_Name_div">
+                    <span>Full Name <b>*</b></span> <br>
+                    <input id = "Input_Name" type="text" placeholder="First and last name">
+                </div>
+                <div class="Input_Password_div">
+                    <span>Password <b>*</b></span> <br>
+                    <input id = "Input_Password" type="password" placeholder="Password (at least 10 characters)">
+                </div>
+                <div class="Input_cheack_div">
+                    <div>
+                        <input id = "agree?" type="checkbox">
+                        <label for="agree?">Keep me signed in</label>
+                    </div>
+                    <a href="#!">Forgot Password?</a>
+                </div>
+            </div>
+            <button id = "Sign_in">Sign in</button>
+            <p>Already using Open PRO? <a href="./Register.html">Sign up</a></p>
+        </form>
+    </main>
+</body>
+</html>

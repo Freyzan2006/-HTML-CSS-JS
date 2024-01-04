@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/Register.css">
+    <link rel="icon" href="./CSS/img/icon.ico">
+    <link rel="stylesheet" href="./fonts/all.min.css">
+    <script src = "JS/jquery-3.7.0.min.js"></script>
+    <script src = "JS/Register&Login.js"></script>
+    <title>Sign up</title>
+</head>
+<body>
+    <header id = "header">
+        <nav>
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="./CSS/img/head/logo.png" alt="">
+                </a>
+            </div>
+            <div class="img_nav">
+                <img src="./CSS/img/head/img.png" alt="">
+            </div>
+        </nav>
+    </header>
+    <main id = "main">
+        <form id = "main_register">
+            <h1>Welcome. We exist to make  <br>
+                entrepreneurism easier.</h1>
+            <div id="main_register_info">
+                <a target="_blank" id = "a" href="https://www.google.com/intl/ru/account/about/">
+                    <i class="fab fa-google"></i> Sign up with Google
+                </a> <br>
+                <a id = "a2" href="./Login.html">
+                    Or, register with your email
+                </a>
+                <div class = "Input_Name_div">
+                    <span>Full Name <b>*</b></span> <br>
+                    <input id = "Input_Name" type="text" placeholder="First and last name">
+                </div>
+                <div class = "Input_Compony_div">
+                    <span>Company Name <b>*</b></span> <br>
+                    <input id = "Input_Compony" type="text" placeholder="Your company or app name">
+                </div>
+                <div class = "Input_email_div">
+                    <span>Work Email <b>*</b></span> <br>
+                    <input id = "Input_email" type="email" placeholder="you@yourcompany.com">
+                </div>
+                <div class="Input_Password_div">
+                    <span>Password <b>*</b></span> <br>
+                    <input id = "Input_Password" type="password" placeholder="Password (at least 10 characters)">
+                </div>
+            </div>
+            <p>
+                I agree to be contacted by Open PRO about this offer as <br>
+                per the Open PRO Privacy Policy.
+            </p>
+            <button id = "Sign_up">Sign up</button>
+            <p>Already using Open PRO? <a href="./Login.html">Sign in</a></p>
+        </form>
+    </main>
+</body>
+</html>

@@ -1,0 +1,761 @@
+:root {
+    --color_defold: aliceblue;
+    --color_bg: rgb(32, 31, 31);
+    --color_font_bg: rgb(65, 44, 185); 
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    cursor: default;
+    background-color: var(--color_bg);
+    display: flex;
+    flex-direction: column;
+    gap: 300px;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 200px;
+    background-color: var(--color_bg);
+    overflow: hidden;
+}
+
+nav {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    z-index: 1;
+}
+
+.logo img {
+    transition: 0.5s;
+    border-radius: 50%;
+}
+
+.logo img:hover {
+    transform: translateY(5px);
+}
+
+
+menu {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+menu a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.Menu_link_1 {
+    color: rgb(65, 44, 185);
+    background: none;
+    width: 100px;
+    height: 30px;
+    
+}
+
+.Menu_link_2 {
+    color: var(--color_defold);
+    background-color: rgb(65, 44, 185);
+    width: 100px;
+    height: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+
+header nav #nav_img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+
+
+
+
+
+header #Title_Head {
+
+    max-width: 1140px;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: 30px;
+}
+
+
+header #Title_Head h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 52px;
+    line-height: 62px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    color: var(--color_defold);
+}
+
+header #Title_Head p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    opacity: 0.5;
+    text-align: center;
+    letter-spacing: -0.25px;
+    color: var(--color_defold);
+}
+
+header #Title_Head .Button_div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+header #Title_Head .Button_div .Menu_link_1 {
+    border: 0;
+    color: #333;
+    border: solid 3px #333;
+    background: var(--color_bg);
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header #head_bg_img {
+    z-index: 2;
+}
+
+
+header #head_img2 {
+    position: absolute;
+    left: 150px;
+    bottom: 0;
+    z-index: 1;
+}
+
+
+
+
+
+
+main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    overflow: hidden;
+    
+}
+
+main #The_majority {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+    overflow: hidden;
+    color: var(--color_defold);
+}
+
+main #The_majority h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: -0.5px;
+}
+
+main #The_majority span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.25px;
+    opacity: 0.5;
+}
+
+main #The_majority #The_majority_info {
+    max-width: 1140px;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+    'box box2 box3'
+    'box4 box5 box6';
+    gap: 50px;
+    border-bottom: solid 3px #333;
+    padding: 30px;
+}
+
+main #The_majority #The_majority_info div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    width: 300px;
+    height: auto;
+}
+
+main #The_majority #The_majority_info div i {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: var(--color_font_bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main #The_majority #The_majority_info div h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    letter-spacing: -0.25px;
+}
+
+main #The_majority #The_majority_info div p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    opacity: 0.5;
+    text-align: center;
+    letter-spacing: -0.25px;
+}
+
+
+
+
+main #The_majority #The_majority_info .The_majority_info_div {
+    grid-area: box;
+}
+
+main #The_majority #The_majority_info .The_majority_info_div2 {
+    grid-area: box2;
+}
+
+main #The_majority #The_majority_info .The_majority_info_div3 {
+    grid-area: box3;
+}
+
+main #The_majority #The_majority_info .The_majority_info_div4 {
+    grid-area: box4;
+}
+
+main #The_majority #The_majority_info .The_majority_info_div5 {
+    grid-area: box5;
+}
+
+main #The_majority #The_majority_info .The_majority_info_div6 {
+    grid-area: box6;
+}
+
+
+
+
+
+
+main #One_product {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    color: var(--color_defold);
+}
+
+main #One_product span {
+    background-color: aquamarine;
+    color: rgb(7, 245, 165);
+}
+
+main #One_product h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: -0.5px;
+}
+
+main #One_product p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.25px;
+    opacity: 0.5;
+}
+
+
+main #One_product #One_product_info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 50px;
+}
+
+main #One_product #One_product_info div  {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+   
+}
+
+main #One_product #One_product_info div em {
+    font-family: 'Architects Daughter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.25px;
+    color: #5D5DFF;
+}
+
+main #One_product #One_product_info div h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: -0.25px;
+
+}
+
+main #One_product #One_product_info div p {
+    text-align: start;
+}
+
+main #One_product #One_product_info div ul {
+    color: #9BA9B4;
+    line-height: 30px;
+
+}
+
+main #One_product #One_product_info div ul li {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -0.25px;
+    opacity: 0.5;
+}
+
+main #One_product #One_product_info div ul li i {
+    
+    color: green;
+}
+
+
+
+
+main #One_product #One_product_info .One_product_info_div2 {
+    background-color: #333;
+}
+
+main #One_product #One_product_info .One_product_info_div2_head {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background: none;
+    border-bottom: solid 3px rgb(32, 32, 32);
+}
+
+main #One_product #One_product_info .One_product_info_div2_head button {
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+}
+
+main #One_product #One_product_info .One_product_info_div2_head .One_product_info_div2_btn1 {
+    width: 40px;
+    height: 25px;
+    background-color: rgb(32, 31, 31);
+    color: #333;
+}
+
+main #One_product #One_product_info .One_product_info_div2_head .One_product_info_div2_btn2 {
+    width: 60px;
+    height: 25px;
+    background-color: var(--color_font_bg);
+    color: var(--color_defold);
+}
+
+main #One_product #One_product_info .One_product_info_div2_head .One_product_info_div2_btn3 {
+    width: 40px;
+    height: 25px;
+    background-color: aquamarine;
+    color: var(--color_defold);
+}
+
+main #One_product #One_product_info .One_product_info_div2_main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    background: none;
+}
+
+main #One_product #One_product_info .One_product_info_div2_main div {
+    background: none;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: solid 3px rgb(34, 33, 33);
+    border-top: solid 3px rgb(34, 33, 33);
+}
+
+main #One_product #One_product_info .One_product_info_div2_main div b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+main #One_product #One_product_info .One_product_info_div2_main div b i {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main #One_product #One_product_info .One_product_info_div2_main div span {
+    color: aliceblue;
+    width:auto;
+    text-align: center;
+    border-radius: 30px;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+main #One_product #One_product_info .One_product_info_div3 {
+    background-color: #333;
+}
+
+main #One_product #One_product_info .One_product_info_div6 {
+    background-color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+main #Don_t_take {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+} 
+
+main #Don_t_take #Don_t_take_title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+main #Don_t_take #Don_t_take_title h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    color: aliceblue;
+}
+
+main #Don_t_take #Don_t_take_title span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    opacity: 0.5;
+    text-align: center;
+    letter-spacing: -0.25px;
+    color: aliceblue;
+}
+
+
+main #Don_t_take #Don_t_take_info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 30px;
+}
+
+main #Don_t_take #Don_t_take_info div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+    background-color: #333;
+    padding: 10px;
+    width: 300px;
+    height: auto;
+}
+
+main #Don_t_take #Don_t_take_info div p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    opacity: 0.5;
+    letter-spacing: -0.25px;
+    border-bottom: solid 3px black;
+    color: aliceblue;
+}
+
+main #Don_t_take #Don_t_take_info div a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.25px;
+    color: aliceblue;
+}
+
+
+
+
+main #Don_t_take #Don_t_take_info2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    height: auto;
+    background: #5D5DFF;
+    color: aliceblue;
+    height: 200px;
+}
+
+main #Don_t_take #Don_t_take_info2 #Don_t_take_info2_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+main #Don_t_take #Don_t_take_info2 #Don_t_take_info2_text h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: -0.25px;
+}
+
+main #Don_t_take #Don_t_take_info2 #Don_t_take_info2_text p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: -0.25px;
+}
+
+
+
+
+
+
+main #Don_t_take #Don_t_take_info2 #Don_t_take_info2_input {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    
+}
+
+main #Don_t_take #Don_t_take_info2 #Don_t_take_info2_input input {
+    border: 0;
+    background: #4B4ACF;
+    border: 1px solid #8D8DFF;
+    border-radius: 2px;
+    width: 250px;
+    height: 50px;
+    padding-left: 10px;
+}
+
+
+main #Don_t_take #Don_t_take_info2 #Don_t_take_info2_input button {
+    border: 0;
+    background: #F4F4FF;
+    box-shadow: 0px 1px 3px rgba(25, 32, 44, 0.04);
+    border-radius: 2px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.25px;
+    color: #5D5DFF;
+
+    width: 100px;
+    height: 50px;
+}
+
+
+main #Don_t_take #Don_t_take_info2 img {
+    justify-self: flex-end;
+    align-self: flex-start;
+    
+}
+
+
+
+
+
+
+
+
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+    overflow: hidden;
+}
+
+footer #footer_logo {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: auto;
+}
+
+footer #footer_logo p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #9BA9B4;
+    letter-spacing: -0.25px;
+}
+
+footer ul {
+    line-height: 40px;
+}
+
+footer ul h1 {
+    color: aliceblue;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+footer ul a {
+    color: aliceblue;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+footer ul a:hover {
+    color: #4B4ACF;
+}
+   
